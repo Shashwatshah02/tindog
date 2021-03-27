@@ -5,6 +5,7 @@ body {
   background-color: #ff4c68;
   color: #fff;
 }
+
 h1 {
   font-family: 'Montserrat', sans-serif;
 
@@ -23,7 +24,7 @@ h1 {
 }
 
 .tt {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 .navbar-nav {
   margin-left: auto;
@@ -38,7 +39,9 @@ h1 {
 }
 .t1 {
   width: 60%;
-  transform: rotate(45deg);
+  transform: rotate(25deg);
+  right:25%;
+  position: absolute;
 }
 .col-lg-4 {
   text-align: center;
@@ -62,4 +65,92 @@ p {
 }
 #features {
   padding: 5% 15% 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+
+}
+@media (max-width: 1028px) {
+  .t1 {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+.dogimage {
+  width : 16%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image {
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  width : 16%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align:center;
+  padding: 7% 15%;
+}
+.true {
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+  font-size: 3.5rem;
+}
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.f1 {
+  color: black;
+  padding: 10px;
+}
+.f2 {
+  color: black;
+  padding: 10px;
+}
+.f3 {
+  color: black;
+  padding: 10px;
+}
+.f4 {
+  color: black;
+  padding: 10px;
+}
+.f5 {
+  padding-top: 30px;
+
 }
